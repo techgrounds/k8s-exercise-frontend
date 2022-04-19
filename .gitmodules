@@ -1,0 +1,3 @@
+[submodule "app"]
+	path = app
+	url = https://github.com/techgrounds/Netflix_Clone_React.git
