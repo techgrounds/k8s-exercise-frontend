@@ -1,0 +1,8 @@
+version: '3'
+services:
+  react:
+    image: "k8s-exercise-frontend"
+    build:
+      context: .
+      args:
+        - DOMAIN="localhost"

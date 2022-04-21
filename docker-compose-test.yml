@@ -1,0 +1,10 @@
+version: "3"
+services:
+  frontend:
+    image: docker.io/library/k8s-exercise-frontend
+    ports:
+      - "80:80"
+  backend:
+    image: ghcr.io/techgrounds/k8s-exercise-backend:main
+    ports:
+      - "8080:8080"
